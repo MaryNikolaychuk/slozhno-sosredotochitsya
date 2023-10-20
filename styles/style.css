@@ -4,6 +4,10 @@
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   font-family: "IBM Plex mono", sans-serif;
   background-color: var(--bg-color);
+  background-image: var(--bg-image);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .header {
@@ -12,9 +16,6 @@
   grid-template-rows: min-content 1fr min-content 1fr min-content;
   height: 100vh;
   min-height: 668px;
-  background-image: var(--bg-image);
-  background-position: center;
-  background-size: cover;
 }
 
 .header__decor-item {
@@ -85,9 +86,6 @@
   font-weight: normal;
 }
 
-.header__theme-menu-item {
-}
-
 .header__theme-menu-button {
   background-color: transparent;
   border: none;
@@ -124,9 +122,6 @@
   line-height: 0.825em;
   text-shadow: 4px 4px 0px var(--accent-color);
   align-self: center;
-}
-
-.header__title {
 }
 
 .header__description {
